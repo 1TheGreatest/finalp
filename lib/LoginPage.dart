@@ -87,7 +87,6 @@ class LoginPageState extends State<LoginPage> with TickerProviderStateMixin {
           timeInSecForIos: 2,
           gravity: ToastGravity.BOTTOM,
           backgroundColor: Colors.indigo.withOpacity(0.5),
-
         );
         _addNewUser(_username, _phnumber, _email);
         return true;

@@ -148,6 +148,7 @@ class _TransportDialogContentState extends State<TransportDialogContent> {
 
   void add() {
     setState(() {
+      if (numberT != 5)
       numberT++;
     });
   }
@@ -316,41 +317,6 @@ class _TransportDialogContentState extends State<TransportDialogContent> {
         padding: EdgeInsets.fromLTRB(30.0,30.0,30.0,50.0),
         width: 500,
         height: 400.0,
-
-        /*Column(
-                children: <Widget>[
-                  MyDialogContent(),
-                  new Text('s'),
-                  new Container(
-                      width: 400,
-                      height: 50,
-                      color: Colors.white,
-                      child: new Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                        children: <Widget>[
-                          new FlatButton(
-                              child: Text('Cancel',style: new TextStyle(color: Colors.black,fontFamily: 'Arvo',),
-                              ),
-                              onPressed: () {
-                                Navigator.pop(context);
-                              }),
-                          new FlatButton(
-                              child: Text('Pay', style: new TextStyle(color: Colors.black,fontFamily: 'Arvo',),
-                              ),
-                              onPressed: () {
-                                _addNewTodo(typeTicket.toString() ,location.toString(), selected.toString(), numberT );
-                                createRequest();
-                                Navigator.pop(context);
-                              }
-                          )
-
-                        ],
-                      )
-                  ),
-
-
-                ],
-              )*/
 
         child:
 

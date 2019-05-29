@@ -134,6 +134,7 @@ class _FoodDialogContentState extends State<FoodDialogContent> {
 
   void add() {
     setState(() {
+      if (numberT != 0)
       numberT++;
     });
   }

@@ -32,6 +32,12 @@ dependencies:
   flutter_ticket_widget: ^0.0.1
   firebase_core: ^0.4.0+1
   firebase_messaging: ^5.0.1
+  easy_dialogs: ^1.0.0
+  permission_handler: ^3.0.0
+  contacts_service: ^0.2.4
+  pref_dessert: ^0.2.3
+  rounded_modal: ^1.0.0
+  datetime_picker_formfield: ^0.1.8
 
 dev_dependencies:
   flutter_test:
@@ -59,6 +65,7 @@ flutter:
     - assets/meatloverspizza.jpg
     - assets/BankuTilapia.jpg
     - assets/location.jpg
+    - assets/cinematicketimage.jpg
 
 
   fonts:

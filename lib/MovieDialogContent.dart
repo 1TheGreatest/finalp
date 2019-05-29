@@ -155,6 +155,7 @@ class _MovieDialogContentState extends State<MovieDialogContent> {
 
   void add() {
     setState(() {
+      if (numberT != 5)
       numberT++;
     });
   }

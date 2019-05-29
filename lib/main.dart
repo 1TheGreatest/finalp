@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Cinema Project',
+      title: 'Service Project',
       debugShowCheckedModeBanner: false,
       home: new SplashPage(),
       routes: <String, WidgetBuilder>{
